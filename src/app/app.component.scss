@@ -1,0 +1,29 @@
+:host {
+    height: 100%;
+    display: flex;
+
+    >#drag {
+        width: 10px;
+        margin-left: -5px;
+        background-color: blanchedalmond;
+        cursor: col-resize;
+    }
+
+    >div:not(#drag) {
+        flex-grow: 1;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 50vw;
+        color: ghostwhite;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    >div:first-of-type {
+        background-color: burlywood;
+    }
+
+    >div:last-of-type {
+        background-color: darkcyan;
+    }
+}
