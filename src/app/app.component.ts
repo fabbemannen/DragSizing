@@ -9,7 +9,7 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'DragSizing';
+  title = 'Drag Sizing';
   fractionsStart: number = 50;
   fractionsEnd: number = 50;
   moveSpeed: number = 0.2;
